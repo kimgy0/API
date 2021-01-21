@@ -14,3 +14,5 @@ IllegalStateException e = assertThrows(IllegalStateException.class, () -> member
 assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원.");
 ```
 
+
+
